@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "employees")
 public class Employee {
     @Id
-    private Long id;
+    private String id;
     private String firstName;
     private String lastName;
     private String email;
